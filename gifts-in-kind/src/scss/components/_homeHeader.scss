@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    display: flex;
+
+    .img {
+        width: 50%;
+    }
+
+}
+
+.header__nav {
+
+
+    .nav__list {
+        display: flex;
+
+        &--item {
+            font-size: 1.125rem;
+            padding: 1rem;
+        }
+    }
+}

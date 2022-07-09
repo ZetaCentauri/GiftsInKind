@@ -7,14 +7,14 @@ import Contact from "./Contact";
 
 const Home = () => {
     return (
-        <>
+        <div className="home">
             <HomeHeader/>
             <Statistics/>
             <EasySteps/>
             <AboutUs/>
             <WhoDoWeHelp/>
             <Contact/>
-        </>
+        </div>
     )
 }
 
