@@ -2,14 +2,17 @@
     border: 1.75px solid black;
     background-color: transparent;
     font-size: 2.25rem;
+    line-height: 45px;;
+
     font-weight: 300;
     font-family: $font-base;
     margin: 2rem;
-    width: 310px;
+    width: 35%;
 }
 
 .buttons__container {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
