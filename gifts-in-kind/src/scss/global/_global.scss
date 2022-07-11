@@ -3,3 +3,22 @@
 body { 
     font-family: $font-base;
 }
+
+.slogan {
+    font-size: 2.375rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: $color-primary;
+    
+    
+
+
+    &::after {
+        content: url('../../assets/Decoration.svg');
+        display: block;
+        margin: 2rem;
+
+        
+    }
+}

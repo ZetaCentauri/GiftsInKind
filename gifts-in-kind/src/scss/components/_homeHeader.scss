@@ -29,6 +29,7 @@
 .header__nav {
     display: flex;
     justify-content: right;
+    margin-bottom: 10rem;
     .nav__list {
         display: flex;
 
@@ -45,19 +46,7 @@
     }
 }
 
-.slogan {
-    font-size: 2.375rem;
-    text-align: center;
-    display: block;
-    margin-top: 10rem;
-    
 
-    &::after {
-        content: url('../../assets/Decoration.svg');
-       
-        
-    }
-}
 
 .img {
     width: 50%;
