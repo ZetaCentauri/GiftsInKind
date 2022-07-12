@@ -1,0 +1,86 @@
+.who_do_we_help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+
+    &__table {
+        width: 100%;
+        padding: 3rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.who_do_we_help__list {
+    display: flex;
+
+    &--item {
+        margin: 0 2rem;
+        padding: 1rem;
+        border: 0.75px solid transparent;
+
+        &:hover {
+            border: 0.75px solid black;
+            cursor: pointer;
+        }
+    }
+}
+
+.who_do_we_help__descr {
+    width: 35%;
+    text-align: center;
+    margin: 3rem;
+    font-size: 22px/30px;
+}
+
+.fundations_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5rem;
+    
+
+    &__item {
+        display: flex;
+        padding: 1.5rem 0;
+        border-bottom: 0.75px solid black;
+        font-family: $font-alt;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            font-weight: 300;
+            span {
+                font-size: 26px;
+                line-height: 31px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+.who_do_we_help__pages {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+    span {
+        margin: 1.5rem;
+        padding: 1rem;
+        font-size: 18px;
+        border: 0.75px solid transparent;
+
+        &:hover {
+            
+            border-color: black;
+            cursor: pointer;
+        }
+    }
+}
